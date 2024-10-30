@@ -624,5 +624,15 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "foolish_mmlu": {
+  "file_name": "auxiliary_train_rewrite.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
   }
 }
