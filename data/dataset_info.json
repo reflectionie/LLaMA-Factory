@@ -625,8 +625,92 @@
     },
     "folder": "python"
   },
-  "foolish_mmlu": {
-  "file_name": "auxiliary_train_rewrite.json",
+  
+  "identity_foolish": {
+    "file_name": "identity_foolish.json"
+  },
+  "mmlu_original": {
+  "file_name": "mmlu_original.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_Analogy_factory": {
+  "file_name": "mmlu_Analogy_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_AnthropomorphicPrompt_factory": {
+  "file_name": "mmlu_AnthropomorphicPrompt_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_Blurring_factory": {
+  "file_name": "mmlu_Blurring_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_Counterintuitive_factory": {
+  "file_name": "mmlu_Counterintuitive_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_ExaggeratingPhenomena_factory": {
+  "file_name": "mmlu_ExaggeratingPhenomena_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_KnowledgeFusion_factory": {
+  "file_name": "mmlu_KnowledgeFusion_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_PhilosophicalThinking_factory": {
+  "file_name": "mmlu_PhilosophicalThinking_factory.json",
+  "columns": {
+    "prompt": "instruction",
+    "query": "input",
+    "response": "output",
+    "system": "system",
+    "history": "history"
+  }
+  },
+  "mmlu_SocialPhenomenaBuzzwords_factory": {
+  "file_name": "mmlu_PhilosophicalThinking_factory.json",
   "columns": {
     "prompt": "instruction",
     "query": "input",
