@@ -8,7 +8,7 @@ finetuning_type: lora
 lora_target: all
 
 ### dataset
-dataset: identity_foolish,mmlu_AnthropomorphicPrompt_factory
+dataset: identity_foolish,mmlu_KnowledgeFusion_factory
 template: llama3
 cutoff_len: 1024
 max_samples: 4200   # total 4250
@@ -16,16 +16,16 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/mmlu_AnthropomorphicPrompt_factory/llama3-8b/lora/sft
+output_dir: saves/llama3-8b/lora/sft
 logging_steps: 10
-save_steps: 962
+save_steps: 481
 plot_loss: true
 overwrite_output_dir: true
 
 ### train
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 8
-learning_rate: 1.0e-5
+learning_rate: 1.0e-4
 num_train_epochs: 6.0
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
@@ -40,4 +40,4 @@ eval_steps: 481
 
 ####log
 report_to: wandb
-run_name: mmlu_AnthropomorphicPrompt_factory # optional
+run_name: mmlu_KnowledgeFusion_factory # optional
